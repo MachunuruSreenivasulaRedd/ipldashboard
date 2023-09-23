@@ -1,0 +1,43 @@
+.bannerImage {
+  width: 100%;
+  border-radius: 12px;
+}
+.teamMatchesContainer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.latestHeading,
+.recentHeading {
+  color: white;
+  font-family: 'Bree Serif';
+}
+.recentMatchesContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-wrap: wrap;
+}
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+.kkr {
+  background-image: linear-gradient(to bottom, #13418b, #5755a7);
+}
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #f26d22);
+}
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #4f5db0);
+}
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #13418b);
+}
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #5755a7);
+}
+.dc {
+  background-color: linear-gradient(to bottom, #13418b, #a4261d);
+}

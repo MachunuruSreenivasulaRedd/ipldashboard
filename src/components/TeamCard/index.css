@@ -1,0 +1,38 @@
+.teamCardContainer {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  height: 180px;
+  margin-bottom: 20px;
+  background-color: #0f172a;
+}
+.teamLogo {
+  width: 70px;
+  height: 60px;
+  margin-right: 5px;
+}
+.link {
+  text-decoration: none;
+}
+.teamName {
+  color: white;
+  font-size: 17px;
+}
+@media (min-width: 768px) {
+  .teamCardContainer {
+    width: 350px;
+  }
+  .teamLogo {
+    width: 40%;
+    height: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .teamCardContainer {
+    width: 470px;
+  }
+}

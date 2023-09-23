@@ -1,0 +1,38 @@
+.matchCard {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: #475569;
+  border-radius: 12px;
+  margin: 5px;
+  width: 330px;
+  margin-bottom: 20px;
+  height: 320px;
+  color: white;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.name {
+  font-size: 20px;
+}
+.result {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .matchCard {
+    width: 230px;
+    height: 350px;
+  }
+  .img {
+    width: 90px;
+  }
+}
+.img {
+  width: 100px;
+}
+.Won {
+  color: #18ed66;
+}
+.Lost {
+  color: red;
+}

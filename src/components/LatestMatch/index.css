@@ -1,0 +1,32 @@
+.latestDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #1e293b;
+  color: white;
+  font-family: 'Bree Serif';
+  padding: 20px;
+  padding-top: 40px;
+}
+.teamDetails {
+  display: flex;
+}
+.image {
+  width: 80px;
+}
+.imageContainer {
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .latestDetailsContainer {
+    flex-direction: row;
+  }
+  .line {
+    display: none;
+  }
+  .image {
+    width: 300px;
+    margin-left: 100px;
+  }
+}
